@@ -2,11 +2,24 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    top: 0;
+    max-width: 100%;
 }
 
 .maintext{
     color: #F9FAF8;
     font-size: 48px;
+    align-items: center;
+}
+
+.h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 .secondarytext{
     color: #E5E7EB;
@@ -21,6 +34,12 @@
     padding: 0;
     width: 100px;
     height: 30px;
+   
+}
+
+.header{
+    display: flex;
+    gap: 450px;
 }
 
 .headerLogo{
@@ -28,12 +47,22 @@
     font-size: 24px;
     display: flex;
     padding: auto;
+    align-items: center;
 }
 
 .Links{
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    text-align: right;
+    justify-content: flex-end;
+    margin: auto;
+    padding: auto;
+    gap: 15px;
+
+    
 }
 
 a:any-link {
@@ -41,6 +70,13 @@ a:any-link {
     font-size: 18px;
     color: #E5E7EB;
     }
+
+.maincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}    
 
 .image{
     text-align: center;
@@ -57,4 +93,93 @@ a:any-link {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.boxtwo{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+.info{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.imageone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img1{
+    height: 200px;
+    border-radius: 10px;
+    border: solid blue 2px;
+    width: 200px;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+
+}
+
+.boxthree{
+    text-align: center;
+    background-color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.texty{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1F2937;
+    margin: 200px;
+}
+
+.boxfour{
+    display: flex;
+    margin: 80px 150px 80px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    width: 1000px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+
+.contemtbox{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 40px 0 0 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sigbut{
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #F9FAF8;
 }
