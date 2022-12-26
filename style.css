@@ -1,0 +1,60 @@
+.boxone{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.maintext{
+    color: #F9FAF8;
+    font-size: 48px;
+}
+.secondarytext{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+    padding: 0;
+    width: 100px;
+    height: 30px;
+}
+
+.headerLogo{
+    color: #F9FAF8;
+    font-size: 24px;
+    display: flex;
+    padding: auto;
+}
+
+.Links{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a:any-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    }
+
+.image{
+    text-align: center;
+    color: #F9FAF8;
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    margin: 90px 0 0 0;
+}
+
+.p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
